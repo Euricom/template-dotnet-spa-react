@@ -1,12 +1,7 @@
-import {
-  Card,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import "./styles/index.css";
+import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import './styles/index.css';
 
-import reactLogo from "./react.svg";
+import reactLogo from './react.svg';
 
 export function App() {
   return (
@@ -22,10 +17,8 @@ export function App() {
         <CardHeader className="gap-4">
           <CardTitle className="text-3xl font-bold">Vite + React</CardTitle>
           <CardDescription>
-            Edit{" "}
-            <code className="rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono">
-              src/App.tsx
-            </code>{" "}
+            Edit{' '}
+            <code className="rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono">src/App.tsx</code>{' '}
             and save to test HMR
           </CardDescription>
         </CardHeader>
