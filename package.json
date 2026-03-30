@@ -1,0 +1,15 @@
+{
+  "name": "template-dotnet-spa-react",
+  "type": "module",
+  "private": true,
+  "description": "AI Masterclass SPA Template",
+  "devDependencies": {},
+  "workspaces": [
+    "packages/web"
+  ],
+  "scripts": {
+    "dev": "bun run --filter 'web' dev",
+    "lint": "bun run --filter 'web' lint"
+  },
+  "packageManager": "bun@1.3.6"
+}
