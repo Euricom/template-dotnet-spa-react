@@ -1,8 +1,13 @@
-# template-dotnet-spa-react
+# template-dotnet-spa
 
-A full-stack starter template combining a .NET 10 REST API with a React SPA frontend. The backend (C#) serves a simple CRUD API for managing animals, while the frontend (React + Vite + TypeScript) uses Tailwind CSS and shadcn/ui components. Both live in a monorepo under `packages/api` and `packages/web`, managed by Bun workspaces.
+A full-stack starter template combining a .NET 10 REST API with SPA frontends in React and Angular. The backend (C#) serves a simple CRUD API for managing animals, while two frontend options are provided:
 
-Built as a starting point for the AI Masterclass — participants wire the frontend to the backend and build out features from there.
+- **React** (`packages/web-react`) — React + Vite + TypeScript with Tailwind CSS and shadcn/ui components
+- **Angular** (`packages/web-ng`) — Angular + Vite + TypeScript with Tailwind CSS
+
+Both frontends and the API live in a monorepo managed by Bun workspaces.
+
+Built as a starting point for the AI Masterclass — participants wire a frontend to the backend and build out features from there.
 
 ## Prerequisites
 
@@ -11,17 +16,24 @@ Built as a starting point for the AI Masterclass — participants wire the front
 
 ## Quick start
 
-**Frontend:**
+**Frontend (React):**
 
 ```bash
 # install dependencies
 bun install
 
-# start the frontend
-bun run dev
+# start the React frontend
+bun run --filter web-react dev
 
 # generate the API types
 bun run gen:api  
+```
+
+**Frontend (Angular):**
+
+```bash
+# start the Angular frontend
+bun run --filter web-ng dev
 ```
 
 **Backend:**
