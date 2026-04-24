@@ -26,6 +26,11 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 **/obj
 **/bin
 
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
 # caches
 .eslintcache
 .cache
