@@ -1,12 +1,7 @@
-import {
-  HeadContent,
-  Link,
-  Outlet,
-  Scripts,
-  createRootRouteWithContext,
-} from '@tanstack/react-router';
+import { HeadContent, Link, Outlet, Scripts, createRootRouteWithContext } from '@tanstack/react-router';
 
 import appCss from '../styles.css?url';
+import { ErrorBoundary } from '#/components/error-boundary';
 
 import type { QueryClient } from '@tanstack/react-query';
 
@@ -25,6 +20,13 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
   }),
   component: RootLayout,
   shellComponent: RootDocument,
+  errorComponent: ErrorBoundary,
+  notFoundComponent: () => (
+    <main>
+      <h1 className="text-2xl font-bold">Page not found</h1>
+      <p className="mt-2 text-gray-600">The page you're looking for doesn't exist.</p>
+    </main>
+  ),
 });
 
 function RootDocument({ children }: { children: React.ReactNode }) {

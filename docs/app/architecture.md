@@ -14,14 +14,15 @@ Following architecture can be chosen:
 **Front-end: React**
 
 - TypeScript
-- React 19 app based on Vite 8
+- React 19 app based on Vite+
 - Styling with [Tailwindcss v4](https://tailwindcss.com/)
-- Components library with [shadcn](https://ui.shadcn.com/) (style `new-york`, base color `neutral`)
+- Components library with [shadcn](https://ui.shadcn.com/) 
+- Form handling with [Tanstack Form](https://tanstack.com/form/latest)
 - State management with [Zustand](https://github.com/pmndrs/zustand) (planned)
 - API calls with [React Query](https://tanstack.com/query/v5/docs/framework/react/overview) (planned)
 - Routing with [React Router](https://reactrouter.com/) (planned)
-- Unit testing with [Vitest](https://vitest.dev/); [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) (planned, not yet wired up)
-- Linting & formatting via [vite-plus](https://www.npmjs.com/package/vite-plus) (`vp check`), which wraps OXLint + OXFmt
+- Unit testing with Vite+ [Vitest](https://vitest.dev/); [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) (planned, not yet wired up)
+- Linting & formatting via [vite+](https://www.npmjs.com/package/vite-plus) (`vp check`), which wraps OXLint + OXFmt
 - API TS types via [openapi-typescript](https://openapi-ts.dev/) and runtime client via [openapi-fetch](https://openapi-ts.dev/openapi-fetch/)
 - Use Bun in favor of npm
 
@@ -179,12 +180,13 @@ root/                              # repo root
 
 - TypeScript
 - Full-stack Framework powered by TanStack Start for React
-  - React 19, Vite 7, TanStack Start + Router + Query (with SSR query integration) + devtools
+  - React 19, Vite+, TanStack Start + Router + Query (with SSR query integration) + devtools
   - File-based routing via TanStack Router
   - Server Functions
 - Styling with [Tailwindcss v4](https://tailwindcss.com/)
 - Components library with [shadcn](https://ui.shadcn.com/)
-- Unit testing with Vitest 3 + [@testing-library/react](https://testing-library.com/docs/react-testing-library/intro/) + jsdom
+- Form handling with [Tanstack Form](https://tanstack.com/form/latest)
+- Unit testing with Vite+ (Vitest) + [@testing-library/react](https://testing-library.com/docs/react-testing-library/intro/) + jsdom
 - Linting & formatting via [vite-plus](https://www.npmjs.com/package/vite-plus) (`vp check`), which wraps OXLint + OXFmt
 - Authentication with Azure Entra ID with Authorization flow with PKCE (planned)
 - API TS type generation with [openapi-ts.dev](https://openapi-ts.dev/)

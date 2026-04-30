@@ -6,11 +6,15 @@
     "#/*": "./src/*"
   },
   "scripts": {
-    "dev": "vite dev --port 3000",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "vite --port 3000",
+    "build": "vp build",
+    "preview": "vp preview",
     "test": "vitest run",
     "check": "vp check",
+    "check:fix": "vp check --fix",
+    "fallow:dead": "fallow dead-code",
+    "fallow:dupes": "fallow dupes",
+    "fallow:health": "fallow health",
     "cleanup": "rimraf .tanstack dist",
     "gen:api": "npx openapi-typescript http://localhost:5204/openapi/v1.json -o ./src/api/schema.ts"
   },
@@ -27,6 +31,7 @@
     "clsx": "^2.1.1",
     "lucide-react": "^0.577.0",
     "openapi-fetch": "^0.17.0",
+    "radix-ui": "^1.4.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "tailwind-merge": "^3.0.2",
@@ -41,11 +46,11 @@
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.1.4",
+    "fallow": "^2.56.0",
     "jsdom": "^28.1.0",
     "typescript": "^5.7.2",
     "vite": "^7.3.1",
-    "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^3.0.5"
+    "vite-plus": "^0.1.14"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
