@@ -12,47 +12,52 @@ Follow the steps below to install you AI powered workstation.
 
 ## Extra Tools to install
 
-**AI Tools**
+**AI Tools ***
 
-| AI Agents          | Description                         | Link                                      |
-| ------------------ | ----------------------------------- | ----------------------------------------- |
-| **Claude**         | Chat, Claude Code, CoWork, Design   | https://claude.ai                         |
-| **Chatgpt**        | Chat, Codex                         | https://chatgpt.com/                      |
-| **Github Copilot** | VSCode                              | get invited via github                    |
-| **WisprFlow**      | Voice to text                       | https://wisprflow.com/                    |
-| **Typeless**       | Voice to text                       | https://www.typeless.com/                 |
-| **CodexBar (Mac)** | Claude, Cursor, Codex, Github usage | https://codexbar.app/                     |
-| **CodexBar (Win)** | Claude, Cursor, Codex, Github usage | https://github.com/Finesssee/Win-CodexBar |
+| AI Agents          | Description                         | Link                                                                                   |
+| ------------------ | ----------------------------------- | -------------------------------------------------------------------------------------- |
+| **Claude App**     | Chat, Claude Code, CoWork, Design   | [https://claude.ai](https://claude.ai)                                                 |
+| **Chatgpt App**    | Chat, Codex App                     | [https://chatgpt.com/](https://chatgpt.com/)                                           |
+| **Github Copilot** | AI Agent                            | get invited via github                                                                 |
+| **Copilot CLI**    | AI Agent                            | [https://github.com/github/copilot-cli](https://github.com/github/copilot-cli)         |
+| **WisprFlow**      | Voice to text                       | [https://wisprflow.com/](https://wisprflow.com/)                                       |
+| **Typeless**       | Voice to text                       | [https://www.typeless.com/](https://www.typeless.com/)                                 |
+| **CodexBar (Mac)** | Claude, Cursor, Codex, Github usage | [https://codexbar.app/](https://codexbar.app/)                                         |
+| **CodexBar (Win)** | Claude, Cursor, Codex, Github usage | [https://github.com/Finesssee/Win-CodexBar](https://github.com/Finesssee/Win-CodexBar) |
 
-**AI Credits**
+**AI Credits ***
 
-| Provider            | Description       | Link                         |
-| ------------------- | ----------------- | ---------------------------- |
-| **Claude API keys** | Anthropic Credits | https://platform.claude.com/ |
+| Provider            | Description       | Link                                                         |
+| ------------------- | ----------------- | ------------------------------------------------------------ |
+| **Claude API keys** | Anthropic Credits | [https://platform.claude.com/](https://platform.claude.com/) |
+
 
 **CLI Tools**
 
-| Tool        | Description                  | Link                                     |
-| ----------- | ---------------------------- | ---------------------------------------- |
-| **jq**      | json processor               | https://stedolan.github.io/jq/           |
-| **gh**      | github cli                   | https://cli.github.com/                  |
-| **zoxide**  | fuzzy file system navigation | https://github.com/ajeetdsouza/zoxide    |
-| **eza**     | ls alternative               | https://github.com/eza-community/eza     |
-| **yazi**    | file manager                 | https://github.com/sxyazi/yazi           |
-| **glow**    | markdown reader              | https://github.com/charmbracelet/glow    |
-| **lazygit** | git client                   | https://github.com/jesseduffield/lazygit |
-| **tmux**    | terminal multiplexer         | https://github.com/tmux/tmux             |
+| Tool        | Description                  | Link                                                                                 |
+| ----------- | ---------------------------- | ------------------------------------------------------------------------------------ |
+| **jq ***    | json processor               | [https://stedolan.github.io/jq/](https://stedolan.github.io/jq/)                     |
+| **gh ***    | github cli                   | [https://cli.github.com/](https://cli.github.com/)                                   |
+| **uv ***    | Python package manager       | [https://docs.astral.sh/uv/](https://docs.astral.sh/uv/)                             |
+| **zoxide**  | fuzzy file system navigation | [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)       |
+| **eza**     | ls alternative               | [https://github.com/eza-community/eza](https://github.com/eza-community/eza)         |
+| **yazi**    | file manager                 | [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)                     |
+| **glow**    | markdown reader              | [https://github.com/charmbracelet/glow](https://github.com/charmbracelet/glow)       |
+| **lazygit** | git client                   | [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) |
+| **tmux**    | terminal multiplexer         | [https://github.com/tmux/tmux](https://github.com/tmux/tmux)                         |
+| **just**    | command runner               | [https://github.com/casey/just](https://github.com/casey/just)                       |
 
 **Office/Dev Tools**
 
-| Tool          | Description                 | Link                                     |
-| ------------- | --------------------------- | ---------------------------------------- |
-| **VSCode**    | Code Editor                 | https://code.visualstudio.com/           |
-| **Slack**     | Microsoft Teams alternative | https://slack.com/downloads              |
-| **Office365** | Microsoft Office            | https://m365.cloud.microsoft/apps        |
-| **Chrome**    | Chrome Browser              | https://www.google.com/intl/en_uk/chrome |
-| **Obsidian**  | Note taking                 | https://obsidian.md/                     |
-| **WezTerm**   | Terminal                    | https://wezfurlong.org/wezterm/          |
+| Tool             | Description                 | Link                                                                                                         |
+| ---------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **VSCode ***     | Code Editor                 | [https://code.visualstudio.com/](https://code.visualstudio.com/)                                             |
+| **Slack ***      | Microsoft Teams alternative | [https://slack.com/downloads](https://slack.com/downloads)                                                   |
+| **Office365 ***  | Microsoft Office            | [https://m365.cloud.microsoft/apps](https://m365.cloud.microsoft/apps)                                       |
+| **Chrome ***     | Chrome Browser              | [https://www.google.com/intl/en_uk/chrome](https://www.google.com/intl/en_uk/chrome)                         |
+| **Obsidian**     | Note taking                 | [https://obsidian.md/](https://obsidian.md/)                                                                 |
+| **WezTerm**      | Terminal                    | [https://wezfurlong.org/wezterm/](https://wezfurlong.org/wezterm/)                                           |
+| **MS PowerToys** | Windows utility belt        | [https://learn.microsoft.com/en-us/windows/powertoys/](https://learn.microsoft.com/en-us/windows/powertoys/) |
 
 ## Install Masterclass git repo
 
@@ -61,5 +66,4 @@ cd ~/git
 git clone git@github.com:Euricom/ai-masterclass.git
 git clone git@github.com:Euricom/ai-masterclass-starters.git
 ```
-
 
