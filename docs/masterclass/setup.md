@@ -10,7 +10,18 @@ Follow the steps below to install you AI powered workstation.
 
 [Basic Laptop Setup](https://github.com/Euricom/ai-masterclass/blob/main/content/01.%20setup/laptop.md)
 
-## Extra Tools to install
+## Tools to install
+
+**Office/Dev Tools**
+
+| Tool             | Description                 | Link                                                                                                         |
+| ---------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **VSCode ***     | Code Editor                 | [https://code.visualstudio.com/](https://code.visualstudio.com/)                                             |
+| **Slack ***      | Microsoft Teams alternative | [https://slack.com/downloads](https://slack.com/downloads)                                                   |
+| **Office365 ***  | Microsoft Office            | [https://m365.cloud.microsoft/apps](https://m365.cloud.microsoft/apps)                                       |
+| **Chrome ***     | Chrome Browser              | [https://www.google.com/intl/en_uk/chrome](https://www.google.com/intl/en_uk/chrome)                         |
+| **Obsidian**     | Note taking                 | [https://obsidian.md/](https://obsidian.md/)                                                                 |
+| **MS PowerToys** | Windows utility belt        | [https://learn.microsoft.com/en-us/windows/powertoys/](https://learn.microsoft.com/en-us/windows/powertoys/) |
 
 **AI Tools ***
 
@@ -31,6 +42,17 @@ Follow the steps below to install you AI powered workstation.
 | ------------------- | ----------------- | ------------------------------------------------------------ |
 | **Claude API keys** | Anthropic Credits | [https://platform.claude.com/](https://platform.claude.com/) |
 
+**Terminal ***
+
+Pick one of the following terminals:
+
+| Tool                 | Description                     | Link                                                                                                       |
+| -------------------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **iTerm2**           | Terminal App (Mac)              | https://iterm2.com/                                                                                        |
+| **Cmux ***           | Terminal App (Mac)              | https://cmux.com/                                                                                          |
+| **Ghostty**          | Terminal App (Mac, WSL & Linux) | https://ghostty.org/                                                                                       |
+| **WezTerm ***        | Terminal App (Win, Mac & Linux) | https://wezfurlong.org/wezterm/                                                                            |
+| **Windows Terminal** | Terminal App (Win)              | [https://learn.microsoft.com/en-us/windows/terminal/](https://learn.microsoft.com/en-us/windows/terminal/) |
 
 **CLI Tools**
 
@@ -46,18 +68,6 @@ Follow the steps below to install you AI powered workstation.
 | **lazygit** | git client                   | [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) |
 | **tmux**    | terminal multiplexer         | [https://github.com/tmux/tmux](https://github.com/tmux/tmux)                         |
 | **just**    | command runner               | [https://github.com/casey/just](https://github.com/casey/just)                       |
-
-**Office/Dev Tools**
-
-| Tool             | Description                 | Link                                                                                                         |
-| ---------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **VSCode ***     | Code Editor                 | [https://code.visualstudio.com/](https://code.visualstudio.com/)                                             |
-| **Slack ***      | Microsoft Teams alternative | [https://slack.com/downloads](https://slack.com/downloads)                                                   |
-| **Office365 ***  | Microsoft Office            | [https://m365.cloud.microsoft/apps](https://m365.cloud.microsoft/apps)                                       |
-| **Chrome ***     | Chrome Browser              | [https://www.google.com/intl/en_uk/chrome](https://www.google.com/intl/en_uk/chrome)                         |
-| **Obsidian**     | Note taking                 | [https://obsidian.md/](https://obsidian.md/)                                                                 |
-| **WezTerm**      | Terminal                    | [https://wezfurlong.org/wezterm/](https://wezfurlong.org/wezterm/)                                           |
-| **MS PowerToys** | Windows utility belt        | [https://learn.microsoft.com/en-us/windows/powertoys/](https://learn.microsoft.com/en-us/windows/powertoys/) |
 
 ## Install Masterclass git repo
 
