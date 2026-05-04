@@ -1,24 +1,16 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { useSuspenseQuery } from '@tanstack/react-query';
 import { getAnimals, type AnimalDTO } from '#/api/animals';
 
-const animalsQueryOptions = {
-  queryKey: ['animals'],
-  queryFn: async () => {
+export const Route = createFileRoute('/animals')({
+  loader: async () => {
     const { data } = await getAnimals();
     return data ?? [];
-  },
-};
-
-export const Route = createFileRoute('/animals')({
-  loader: ({ context }) => {
-    context.queryClient.ensureQueryData(animalsQueryOptions);
   },
   component: Animals,
 });
 
 function Animals() {
-  const { data: animals } = useSuspenseQuery(animalsQueryOptions);
+  const animals = Route.useLoaderData();
 
   return (
     <main>
